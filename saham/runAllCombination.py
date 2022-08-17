@@ -230,14 +230,14 @@ def OneCombination(firstStock):
 
 #### Two Combination ####
  
-stockSymbolList = list()
-initialCapitalList = list()  
-totalProfitList = list()
-profitPercentageList = list()
-totalTaxList = list()
-numberPurchaseList = list()
-numberSellList = list()
-indicatorColumnList = list()
+stockSymbolList2 = list()
+initialCapitalList2 = list()  
+totalProfitList2 = list()
+profitPercentageList2 = list()
+totalTaxList2 = list()
+numberPurchaseList2 = list()
+numberSellList2 = list()
+indicatorColumnList2 = list()
 
 def RunTwoCombination_AND(firstStock, secondStock):
     # Unbox the firstStock
@@ -500,22 +500,18 @@ def RunTwoCombination_AND(firstStock, secondStock):
         profitPercentage = 0
 
     # Append the simulation summary to the lists for later use
-    stockSymbolList.append(stockSymbol)
-    initialCapitalList.append(initialCapital)
-    totalProfitList.append(totalProfit)
+    stockSymbolList2.append(stockSymbol)
+    initialCapitalList2.append(initialCapital)
+    totalProfitList2.append(totalProfit)
     profitTemp = profitPercentage
-    profitPercentageList.append(profitTemp)
-    totalTaxList.append(totalTax)
-    numberPurchaseList.append(numberPurchase)
-    numberSellList.append(numberSell)
+    profitPercentageList2.append(profitTemp)
+    totalTaxList2.append(totalTax)
+    numberPurchaseList2.append(numberPurchase)
+    numberSellList2.append(numberSell)
 
-    indicatorColumnList.append(indicatorName)
+    indicatorColumnList2.append(indicatorName)
     #print("MARK 13")
 
-# (stock,stockSymbol,signalColumn,indicatorColumn,indicatorColumn2 = None,indicatorColumn3 = None):
-# firstStock = ["OBJ","TLKM","BUY","RSI_1","RSI_2"]
-# secondStock = ["Stock_Object","TLKM","BUY","OBV_1","OBV_2","OBV_3"]
-# two = []
 
 def RunTwoCombination_OR(firstStock, secondStock):
     # Unbox the firstStock
@@ -771,28 +767,28 @@ def RunTwoCombination_OR(firstStock, secondStock):
         profitPercentage = 0
 
     # Append the simulation summary to the lists for later use
-    stockSymbolList.append(stockSymbol)
-    initialCapitalList.append(initialCapital)
-    totalProfitList.append(totalProfit)
+    stockSymbolList2.append(stockSymbol)
+    initialCapitalList2.append(initialCapital)
+    totalProfitList2.append(totalProfit)
     profitTemp = profitPercentage
-    profitPercentageList.append(profitTemp)
-    totalTaxList.append(totalTax)
-    numberPurchaseList.append(numberPurchase)
-    numberSellList.append(numberSell)
-    indicatorColumnList.append(indicatorName)
+    profitPercentageList2.append(profitTemp)
+    totalTaxList2.append(totalTax)
+    numberPurchaseList2.append(numberPurchase)
+    numberSellList2.append(numberSell)
+    indicatorColumnList2.append(indicatorName)
 
 #### Three Combinations ####
 
 # Empty all the list for the summary (for combination 3)
 
-stockSymbolList = list()
-initialCapitalList = list()
-totalProfitList = list()
-profitPercentageList = list()
-totalTaxList = list()   
-numberPurchaseList = list()
-numberSellList = list()  
-indicatorColumnList = list()
+stockSymbolList3 = list()
+initialCapitalList3 = list()
+totalProfitList3 = list()
+profitPercentageList3 = list()
+totalTaxList3 = list()   
+numberPurchaseList3 = list()
+numberSellList3 = list()  
+indicatorColumnList3 = list()
 
 def RunThreeCombination_AND(firstStock, secondStock, threeStock):
   
@@ -1088,16 +1084,16 @@ def RunThreeCombination_AND(firstStock, secondStock, threeStock):
     profitPercentage = 0
 
   # Append the simulation summary to the lists for later use
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList3.append(stockSymbol)
+  initialCapitalList3.append(initialCapital)
+  totalProfitList3.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList3.append(profitTemp)
+  totalTaxList3.append(totalTax)
+  numberPurchaseList3.append(numberPurchase)
+  numberSellList3.append(numberSell)
 
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList3.append(indicatorName)
   #print("MARK 18") 
 
 #function X OR X OR X
@@ -1436,16 +1432,16 @@ def RunThreeCombination_OR(firstStock, secondStock, threeStock):
     profitPercentage = 0
 
   # Append the simulation summary to the lists for later use
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList3.append(stockSymbol)
+  initialCapitalList3.append(initialCapital)
+  totalProfitList3.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList3.append(profitTemp)
+  totalTaxList3.append(totalTax)
+  numberPurchaseList3.append(numberPurchase)
+  numberSellList3.append(numberSell)
 
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList3.append(indicatorName)
   #print("MARK 16") 
 
 #function X AND X OR X
@@ -1777,17 +1773,17 @@ def RunThreeCombination_AND_OR(firstStock, secondStock, threeStock):
     profitPercentage = 0
 
   # Append the simulation summary to the lists for later use  
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList3.append(stockSymbol)
+  initialCapitalList3.append(initialCapital)
+  totalProfitList3.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList3.append(profitTemp)
+  totalTaxList3.append(totalTax)
+  numberPurchaseList3.append(numberPurchase)
+  numberSellList3.append(numberSell)
   # splitTemp = indicatorColumn.split("_")
   # indicatorName = splitTemp
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList3.append(indicatorName)
   #print("MARK 17")
 
 #function X OR X AND X
@@ -2113,17 +2109,17 @@ def RunThreeCombination_OR_AND(firstStock, secondStock, threeStock):
     profitPercentage = 0  
 
   # Append the simulation summary to the lists for later use
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList3.append(stockSymbol)
+  initialCapitalList3.append(initialCapital)
+  totalProfitList3.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList3.append(profitTemp)
+  totalTaxList3.append(totalTax)
+  numberPurchaseList3.append(numberPurchase)
+  numberSellList3.append(numberSell)
   # splitTemp = indicatorColumn.split("_")
   # indicatorName = splitTemp
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList3.append(indicatorName)
   #print("MARK 17")
 
 #### Four Combination #####
@@ -2131,14 +2127,14 @@ def RunThreeCombination_OR_AND(firstStock, secondStock, threeStock):
 
 # Empty all the list for the summary (for combination 4)
 
-stockSymbolList = list()
-initialCapitalList = list()
-totalProfitList = list()
-profitPercentageList = list()
-totalTaxList = list()   
-numberPurchaseList = list()
-numberSellList = list()  
-indicatorColumnList = list()
+stockSymbolList4 = list()
+initialCapitalList4 = list()
+totalProfitList4 = list()
+profitPercentageList4 = list()
+totalTaxList4 = list()   
+numberPurchaseList4 = list()
+numberSellList4 = list()  
+indicatorColumnList4 = list()
 
 def RunFourCombination_AND(firstStock, secondStock, threeStock, fourStock):
   
@@ -2490,17 +2486,17 @@ def RunFourCombination_AND(firstStock, secondStock, threeStock, fourStock):
     profitPercentage = 0  
 
   # Append the simulation summary to the lists for later use
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList4.append(stockSymbol)
+  initialCapitalList4.append(initialCapital)
+  totalProfitList4.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList4.append(profitTemp)
+  totalTaxList4.append(totalTax)
+  numberPurchaseList4.append(numberPurchase)
+  numberSellList4.append(numberSell)
   # splitTemp = indicatorColumn.split("_")
   # indicatorName = splitTemp
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList4.append(indicatorName)
   #print("MARK 21")
 
 #function X OR X OR X OR X
@@ -2893,17 +2889,17 @@ def RunFourCombination_OR(firstStock, secondStock, threeStock, fourStock):
     profitPercentage = 0  
 
   # Append the simulation summary to the lists for later use
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList4.append(stockSymbol)
+  initialCapitalList4.append(initialCapital)
+  totalProfitList4.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList4.append(profitTemp)
+  totalTaxList4.append(totalTax)
+  numberPurchaseList4.append(numberPurchase)
+  numberSellList4.append(numberSell)
   # splitTemp = indicatorColumn.split("_")
   # indicatorName = splitTemp
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList4.append(indicatorName)
   #print("MARK 21")
 
 #function X AND X AND X OR X
@@ -3296,17 +3292,17 @@ def RunFourCombination_AND_AND_OR(firstStock, secondStock, threeStock, fourStock
     profitPercentage = 0  
 
   # Append the simulation summary to the lists for later use
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList4.append(stockSymbol)
+  initialCapitalList4.append(initialCapital)
+  totalProfitList4.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList4.append(profitTemp)
+  totalTaxList4.append(totalTax)
+  numberPurchaseList4.append(numberPurchase)
+  numberSellList4.append(numberSell)
   # splitTemp = indicatorColumn.split("_")
   # indicatorName = splitTemp
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList4.append(indicatorName)
   #print("MARK 21")
 
 #function X OR X OR X AND X
@@ -3699,17 +3695,17 @@ def RunFourCombination_OR_OR_AND(firstStock, secondStock, threeStock, fourStock)
     profitPercentage = 0  
 
   # Append the simulation summary to the lists for later use
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList4.append(stockSymbol)
+  initialCapitalList4.append(initialCapital)
+  totalProfitList4.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList4.append(profitTemp)
+  totalTaxList4.append(totalTax)
+  numberPurchaseList4.append(numberPurchase)
+  numberSellList4.append(numberSell)
   # splitTemp = indicatorColumn.split("_")
   # indicatorName = splitTemp
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList4.append(indicatorName)
   #print("MARK 21")
 
 #function X AND X OR X OR X
@@ -4102,17 +4098,17 @@ def RunFourCombination_AND_OR_OR(firstStock, secondStock, threeStock, fourStock)
     profitPercentage = 0  
 
   # Append the simulation summary to the lists for later use
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList4.append(stockSymbol)
+  initialCapitalList4.append(initialCapital)
+  totalProfitList4.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList4.append(profitTemp)
+  totalTaxList4.append(totalTax)
+  numberPurchaseList4.append(numberPurchase)
+  numberSellList4.append(numberSell)
   # splitTemp = indicatorColumn.split("_")
   # indicatorName = splitTemp
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList4.append(indicatorName)
   #print("MARK 21")
 
 #function X OR X AND X AND X
@@ -4505,17 +4501,17 @@ def RunFourCombination_OR_AND_AND(firstStock, secondStock, threeStock, fourStock
     profitPercentage = 0  
 
   # Append the simulation summary to the lists for later use
-  stockSymbolList.append(stockSymbol)
-  initialCapitalList.append(initialCapital)
-  totalProfitList.append(totalProfit)
+  stockSymbolList4.append(stockSymbol)
+  initialCapitalList4.append(initialCapital)
+  totalProfitList4.append(totalProfit)
   profitTemp = profitPercentage
-  profitPercentageList.append(profitTemp)
-  totalTaxList.append(totalTax)
-  numberPurchaseList.append(numberPurchase)
-  numberSellList.append(numberSell)
+  profitPercentageList4.append(profitTemp)
+  totalTaxList4.append(totalTax)
+  numberPurchaseList4.append(numberPurchase)
+  numberSellList4.append(numberSell)
   # splitTemp = indicatorColumn.split("_")
   # indicatorName = splitTemp
-  indicatorColumnList.append(indicatorName)
+  indicatorColumnList4.append(indicatorName)
   #print("MARK 21")
 
 
@@ -4702,14 +4698,14 @@ def RunAllCombination():
         i = i + 1
 
     twoCombinationSummaryDict = {
-        "Ticker Code": stockSymbolList,
-        "Initial Capital": initialCapitalList,
-        "Total Capital Gain": totalProfitList,
-        "Capital Gain Percentage": profitPercentageList,
-        "Transaction Fee": totalTaxList,
-        "Number Purchased": numberPurchaseList,
-        "Number Sold": numberSellList,
-        "Indicator": indicatorColumnList
+        "Ticker Code": stockSymbolList2,
+        "Initial Capital": initialCapitalList2,
+        "Total Capital Gain": totalProfitList2,
+        "Capital Gain Percentage": profitPercentageList2,
+        "Transaction Fee": totalTaxList2,
+        "Number Purchased": numberPurchaseList2,
+        "Number Sold": numberSellList2,
+        "Indicator": indicatorColumnList2
     }
     #store the simulation summary to CSV
     fileName = "TwoCombination"
@@ -4775,14 +4771,14 @@ def RunAllCombination():
         i = i + 1
 
     ThreeCombinationSummaryDict = {
-        "Ticker Code": stockSymbolList,
-        "Initial Capital": initialCapitalList,
-        "Total Capital Gain": totalProfitList,
-        "Capital Gain Percentage": profitPercentageList,
-        "Transaction Fee": totalTaxList,
-        "Number Purchased": numberPurchaseList,
-        "Number Sold": numberSellList,
-        "Indicator": indicatorColumnList
+        "Ticker Code": stockSymbolList3,
+        "Initial Capital": initialCapitalList3,
+        "Total Capital Gain": totalProfitList3,
+        "Capital Gain Percentage": profitPercentageList3,
+        "Transaction Fee": totalTaxList3,
+        "Number Purchased": numberPurchaseList3,
+        "Number Sold": numberSellList3,
+        "Indicator": indicatorColumnList3
     }
     #store the simulation summary to CSV
     fileName = "ThreeCombination"
@@ -4836,14 +4832,14 @@ def RunAllCombination():
     
     #Store lists to dictionary
     FourCombinationSummaryDict = {
-        "Ticker Code": stockSymbolList,
-        "Initial Capital": initialCapitalList,
-        "Total Capital Gain": totalProfitList,
-        "Capital Gain Percentage": profitPercentageList,
-        "Transaction Fee": totalTaxList,
-        "Number Purchased": numberPurchaseList,
-        "Number Sold": numberSellList,
-        "Indicator": indicatorColumnList
+        "Ticker Code": stockSymbolList4,
+        "Initial Capital": initialCapitalList4,
+        "Total Capital Gain": totalProfitList4,
+        "Capital Gain Percentage": profitPercentageList4,
+        "Transaction Fee": totalTaxList4,
+        "Number Purchased": numberPurchaseList4,
+        "Number Sold": numberSellList4,
+        "Indicator": indicatorColumnList4
     }
     #store the simulation summary to CSV
     fileName = "FourCombination"
